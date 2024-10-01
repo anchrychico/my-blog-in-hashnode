@@ -16,7 +16,9 @@ A list (also called an array in some languages) is an ordered collection of elem
 
 Example in the Table:If we only focus on the product names, the data forms a list.
 
-\["Laptop", "Desk Chair", "Smart watch", "Notebook", "Running Shoes"\]
+```plaintext
+["Laptop", "Desk Chair", "Smart watch", "Notebook", "Running Shoes"]
+```
 
 This is a simple list of product names. It doesn't provide other details about the products, but it keeps them in an ordered sequence.
 
