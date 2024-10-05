@@ -14,25 +14,6 @@ Here are 50 example scenarios for lists you can implement in your activity:
 
 Student List – Manage a list of students.
 
-```xml
-<div>
-  <h2>Student List</h2>
-  <input [(ngModel)]="studentName" placeholder="Enter student name" />
-  <button (click)="addStudent()">Add Student</button>
-  
-  <ul>
-    <li *ngFor="let student of students">
-      {{ student.name }}
-      <button (click)="removeStudent(student.id)">Remove</button>
-    </li>
-  </ul>
-</div>
-```
-
-**Outout**
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727886659367/bf40a577-5029-40dd-a29a-c5091f25aeb1.jpeg align="center")
-
 Employee List – Manage a list of employees.
 
 Fruit List – List different types of fruits.
